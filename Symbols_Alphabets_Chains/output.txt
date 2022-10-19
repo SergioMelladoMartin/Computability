@@ -1,0 +1,4 @@
+[ a b b a a ] Longitud => 5
+[ xx yy xx ] Longitud => 3
+[ ola ola adios ] Longitud => 3
+[ a b b b c ] Longitud => 5
