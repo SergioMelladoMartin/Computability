@@ -1,0 +1,1 @@
+{ [ y ], [ aa ], [ bb ], [ aa1 ], [ aa0 ], [ bb1 ], [ bb0 ], [ yxx ], } Alfabeto: { 0 1 a b x y }
