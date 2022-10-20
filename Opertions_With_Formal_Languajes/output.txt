@@ -1,0 +1,1 @@
+Power L1^0 = { [ & ], } Alfabeto: { a b c d }
