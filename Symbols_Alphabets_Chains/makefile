@@ -15,3 +15,8 @@ alphabet.o: ./src/alphabet.cc ./lib/symbol.h
 
 chain.o: ./src/chain.cc ./lib/symbol.h ./lib/alphabet.h
 	$(CXX) -c ./src/chain.cc
+	
+.PHONY: clean
+
+clean :
+	@rm -f *.o
