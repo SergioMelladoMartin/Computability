@@ -3,6 +3,8 @@ CXXFLAGS = -std=c++11 -g -Wall
 
 main: main.o alphabet.o symbol.o chain.o languaje.o RPN.o
 	@$(CXX) $(CXXFLAGS) -o $@ $^
+	@rm -f *.o
+	@clear
 
 main.o: ./src/main.cc ./lib/alphabet.h ./lib/chain.h ./lib/symbol.h ./lib/languaje.h ./lib/RPN.h
 	@$(CXX) -c ./src/main.cc
@@ -26,3 +28,4 @@ RPN.o: ./src/RPN.cc ./lib/languaje.h
 
 clean :
 	@rm -f *.o
+	@clear
