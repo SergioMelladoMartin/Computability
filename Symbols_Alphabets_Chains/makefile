@@ -22,3 +22,4 @@ chain.o: ./src/chain.cc ./lib/symbol.h ./lib/alphabet.h
 
 clean :
 	@rm -f *.o
+	@clear
